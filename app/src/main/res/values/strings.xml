@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aula02</string>
+    <string name="contador">Aplicação de Contador!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="btnMais">+</string>
+    <string name="btnMenos">-</string>
+    <string name="btnZerar">Zerar</string>
+    <string name="txtZero">0</string>
+    <string name="action_grupo">Opções</string>
+    <string name="menuOp1">Opção 1</string>
+    <string name="menuOp2">Opção 2</string>
+    <string name="title_activity_activity1">Activity1</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
