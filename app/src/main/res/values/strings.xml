@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aula2App2</string>
+    <string name="action_settings">Sobre</string>
+    <string name="txt_activity1">Olá! Eu sou a Activity 1!!!</string>
+    <string name="txt_soma">Valor Numérico: </string>
+    <string name="txt_activity2">Aqui é a Activity 2!!!</string>
+    <string name="txt_activity3">Lista de Alunos:</string>
+    <string name="txt_nome1">Jefferson Araujo - 40309</string>
+    <string name="txt_nome2">Roberto Gimenez - 40344</string>
+    <string name="txt_nome3">Victor Salla - 40236</string>
+    <string name="btn_activity1">CHAMAR ACTIVITY 2</string>
+    <string name="btn_fechar_voltar">FECHAR E RETORNAR</string>
+    <string name="btn_somar">SOMAR</string>
+    <string name="btn_ok">OK</string>
+
+</resources>
