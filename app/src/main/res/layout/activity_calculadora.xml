@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.com.fiap.terceiraaplicacao.CalculadoraActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/lblNum1"
+        android:id="@+id/num1ID"
+        android:layout_marginTop="180sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/lblNum2"
+        android:id="@+id/num2ID"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/num1ContentID"
+        android:layout_alignBottom="@+id/num1ID"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/num2ContentID"
+        android:layout_alignBottom="@+id/num2ID"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/valorInicial"
+        android:id="@+id/resultID"
+        android:layout_below="@+id/btnMultiplicacaoID"
+        android:layout_toEndOf="@+id/btnMultiplicacaoID"
+        android:layout_marginTop="74dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lblResult"
+        android:id="@+id/resultViewID"
+        android:layout_alignBaseline="@+id/resultID"
+        android:layout_alignBottom="@+id/resultID"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soma"
+        android:id="@+id/btnSomaID"
+        android:layout_alignTop="@+id/btnSubtracaoID"
+        android:layout_alignEnd="@+id/num2ID" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtracao"
+        android:id="@+id/btnSubtracaoID"
+        android:layout_alignTop="@+id/btnDivisaoID"
+        android:layout_toEndOf="@+id/btnSomaID" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplicacao"
+        android:id="@+id/btnMultiplicacaoID"
+        android:layout_below="@+id/num2ContentID"
+        android:layout_toEndOf="@+id/resultViewID" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/divisao"
+        android:id="@+id/btnDivisaoID"
+        android:layout_below="@+id/num2ContentID"
+        android:layout_alignStart="@+id/resultID" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageCalcID"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/calculator" />
+</RelativeLayout>

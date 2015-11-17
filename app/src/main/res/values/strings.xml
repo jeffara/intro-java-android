@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TerceiraAplicacao</string>
+    <string name="btnTeste">BOTAO TESTE</string>
+    <string name="subtracao">-</string>
+    <string name="soma">+</string>
+    <string name="divisao">/</string>
+    <string name="multiplicacao">*</string>
+    <string name="lblNum1">Numero 1:</string>
+    <string name="lblNum2">Numero 2:</string>
+    <string name="lblResult">Resultado da Soma:</string>
+    <string name="valorInicial">0.0</string>
+    <string name="lblComputador">Computador:</string>
+    <string name="lblJogador">Jogador:</string>
+    <string name="btnJogarComputador">JOGAR COMPUTADOR</string>
+    <string name="btnJogarJogador">JOGAR JOGADOR</string>
+</resources>
